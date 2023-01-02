@@ -4,7 +4,7 @@ const Main = (item) => {
         <div className="main">
           <div>
             <img
-              src={`../Images/${item.imageUrl}`}
+              src={`../my-travel-journal/Images/${item.imageUrl}`}
               alt="mount fuji"
               className="image"
             />
@@ -12,7 +12,7 @@ const Main = (item) => {
           <div className="details">
             <div className="top">
               <img
-                src={`../Images/${item.locationUrl}`}
+                src={`../my-travel-journal/Images/${item.locationUrl}`}
                 alt="location"
                 className="location "
               />
@@ -28,7 +28,7 @@ const Main = (item) => {
             </div>
           </div>
         </div>
-        <hr/>
+        <hr />
       </>
     );
 }
