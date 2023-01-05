@@ -12,6 +12,7 @@ body{
   align-items: center;
   justify-content: center;
   color: white;
+  width: 100%;
 }
 .nav p {
   margin-left: 0.5rem;
@@ -28,7 +29,7 @@ section{
   margin-left: 1.5rem;
   width: 70%;
 }
-.top{
+.top , .top-2{
   display: flex;
   align-items: center;
 }
@@ -52,4 +53,19 @@ section{
 }
 hr{
   color: rgba(245, 245, 245, 1);
+}
+@media (max-width: 426px) {
+  .top {
+      flex-direction: column;
+    } 
+
+    .main{
+      flex-direction: column;
+    }
+    .details{
+      width: 100%;
+    }
+    section{
+      margin: 3rem 1.5rem;
+    }
 }

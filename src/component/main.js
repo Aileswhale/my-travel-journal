@@ -11,12 +11,14 @@ const Main = (item) => {
           </div>
           <div className="details">
             <div className="top">
-              <img
-                src={`../my-travel-journal/Images/${item.locationUrl}`}
-                alt="location"
-                className="location "
-              />
-              <p className="location ">{item.location}</p>
+              <div className="top-2">
+                <img
+                  src={`../my-travel-journal/Images/${item.locationUrl}`}
+                  alt="location"
+                  className="location "
+                />
+                <p className="location ">{item.location}</p>
+              </div>
               <a href={item.googleMapsUrl} className="map ">
                 View on Google Maps
               </a>
